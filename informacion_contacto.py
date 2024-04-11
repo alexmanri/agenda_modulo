@@ -1,6 +1,6 @@
 from odoo import api, fields, models
-class Agenda(models.Model):
-    _name = 'agenda'
+class InformacionContacto(models.Model):
+    _name = 'informacion.contacto'
     nombre = fields.Char('nombre', required=True)
     apellidos = fields.Char('apellidos', required=False)
     telefono = fields.Char('telefono', required=True)

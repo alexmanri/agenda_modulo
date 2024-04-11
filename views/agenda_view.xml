@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 	<data>
-		<record id="agenda_view_form" model="ir.ui.view">
-			<field name="name">Agenda From</field>
-			<field name="model">agenda</field>
+		<record id="informacion_contacto_view_form" model="ir.ui.view">
+			<field name="name">Informacion Contacto Form</field>
+			<field name="model">informacion.contacto</field>
 			<field name="arch" type="xml">
 				<form string="agenda">
 					<sheet>
-						<group name="agenda_form">
+						<group name="informacion_contacto_form">
 							<field name="nombre"/>
 							<field name="apellidos"/>
 							<field name="telefono"/>
+							<field name="email"/>
 						</group>
 					</sheet>
 				</form>
 			</field>
 		</record>
-		<record id="agenda_view_tree" model="ir.ui.view">
-			<field name="name">Agenda Tree</field>
-			<field name="model">agenda</field>
+		<record id="informacion_contacto_view_tree" model="ir.ui.view">
+			<field name="name">Informacion Contacto Tree</field>
+			<field name="model">informacion.contacto</field>
 			<field name="arch" type="xml">
 				<tree>
 					<field name="nombre"/>
 					<field name="apellidos"/>
 					<field name="telefono"/>
+					<field name="email"/>
 				</tree>
 			</field>
 		</record>
 		<act_window
- id="action_agenda"
- name="agenda"
- res_model="agenda"
+ id="action_informacion_contacto"
+ name="informacion.contacto"
+ res_model="informacion.contacto"
  view_mode="tree,form"
  />
-		<menuitem id="menu_agenda_agenda" name="agenda"
-action="action_agenda"/>
+		<menuitem id="menu_informacion_contacto" name="informacion.contacto"
+action="action_informacion_contacto"/>
 	</data>
 </odoo>

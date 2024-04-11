@@ -1,1 +1,1 @@
-from . import agenda
+from . import informacion_contacto
