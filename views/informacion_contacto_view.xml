@@ -29,13 +29,4 @@
 				</tree>
 			</field>
 		</record>
-		<act_window
- id="action_informacion_contacto"
- name="informacion.contacto"
- res_model="informacion.contacto"
- view_mode="tree,form"
- />
-		<menuitem id="menu_informacion_contacto" name="informacion.contacto"
-action="action_informacion_contacto"/>
-	</data>
 </odoo>
