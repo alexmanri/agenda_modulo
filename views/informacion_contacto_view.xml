@@ -5,7 +5,7 @@
 			<field name="name">Informacion Contacto Form</field>
 			<field name="model">informacion.contacto</field>
 			<field name="arch" type="xml">
-				<form string="agenda">
+				<form string="informacion.contacto">
 					<sheet>
 						<group name="informacion_contacto_form">
 							<field name="nombre"/>
