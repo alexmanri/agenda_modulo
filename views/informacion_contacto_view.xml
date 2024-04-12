@@ -29,14 +29,5 @@
 				</tree>
 			</field>
 		</record>
-		<act_window
- id="action_agenda"
- name="agenda"
- res_model="agenda"
- view_mode="tree,form"
- />
- <menuitem id="menu_agenda_agenda" name="agenda"
-action="action_agenda"/>
-
 	</data>
 </odoo>
